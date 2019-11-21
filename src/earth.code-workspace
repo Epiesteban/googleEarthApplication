@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "/Users/raquelpi/Documents/PlatformIO/Projects/aleix_sancho_eric_pi_exercise1"
+		},
+		{
+			"name": "googleEarth",
+			"path": "/Users/raquelpi/Documents/PlatformIO/Projects/googleEarth"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tpp": "cpp",
+			"*.tcc": "cpp"
+		}
+	}
+}
