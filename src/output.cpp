@@ -3,6 +3,9 @@
 #include <mbed.h>
 
 Serial serial(USBTX, USBRX);
+
+Output::Output() {}
+
 Output::Output(int _valX, int _valY, char _boto){
   char x[10];
   char y[10];
@@ -124,6 +127,7 @@ Output::Output(int _valX, int _valY, char _boto){
 
   strcat(resultat, "X");
 }
+
 
 void Output::printResult(){
     char *resFinal = resultat;

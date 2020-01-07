@@ -4,6 +4,7 @@
 
 class Output{
     public:
+        Output();
         Output(int valX, int valY, char boto);
         void printResult();
 
